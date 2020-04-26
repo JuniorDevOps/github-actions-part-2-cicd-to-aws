@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Git clone our repo
+    - name: Git clone our repository
       uses: actions/checkout@v1
        
     - name: Create ZIP deployment package
