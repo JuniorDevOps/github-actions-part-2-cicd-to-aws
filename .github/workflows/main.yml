@@ -45,7 +45,7 @@ jobs:
 
 
   my_cd_part:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
     needs: [my_ci_part]
 
     steps:
